@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/smart_watch_2_control_width"
+    android:layout_height="@dimen/smart_watch_2_control_height"
+    android:orientation="vertical"
+    android:padding="10px"
+    tools:ignore="ContentDescription,PxUsage,UselessParent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#489CFF"
+        android:text="할 일"
+        android:textSize="5pt" />
+
+    <TextView
+        android:id="@+id/textView_todo_smartwatch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="5.5pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#489CFF"
+        android:textSize="5pt"
+        android:text="기간" />
+
+    <TextView
+        android:id="@+id/textView_time_smartwatch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="5.5pt" />
+
+</LinearLayout>

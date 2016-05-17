@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="@dimen/smart_watch_2_control_width"
+    android:layout_height="50px"
+    android:orientation="vertical"
+    tools:ignore="ContentDescription,PxUsage,UselessParent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:layout_gravity="center_vertical"
+        android:background="#FFFFFF" >
+
+        <Button
+            android:id="@+id/button_check_smartwatch2"
+            android:layout_width="32px"
+            android:layout_height="32px"
+            android:layout_marginTop="8px"
+            android:layout_marginBottom="8px"
+            android:background="@drawable/nocheck" />
+
+        <Button
+            android:id="@+id/button_list_smartwatch2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="4px"
+            android:textSize="4.8pt"
+            android:textColor="#005766"
+            android:background="#00000000" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="#FFFFFF" />
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="4dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical"
+    android:background="#A0D9E2" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_weight="0" >
+
+        <TextView
+            android:id="@+id/textView_todo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="2sp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:text="할 일" />
+            
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="28sp"
+            android:layout_height="28sp"
+            android:layout_weight="0"
+            android:layout_marginRight="18sp"
+            android:background="@drawable/add_selector"
+            android:onClick="AddonClick" />
+        
+        <Button
+            android:id="@+id/button_menu"
+            android:layout_width="28sp"
+            android:layout_height="28sp"
+            android:layout_weight="0"
+            android:layout_marginRight="10sp"
+            android:background="@drawable/menu_selector"
+            android:onClick="MenuonClick" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView_todo"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="5"
+        android:background="#FFFFFF" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView_done"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_weight="0"
+        android:layout_marginTop="3sp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:text="한 일" />
+
+    <ListView
+        android:id="@+id/listView_done"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="4"
+        android:background="#FFFFFF" >
+    </ListView>
+
+</LinearLayout>

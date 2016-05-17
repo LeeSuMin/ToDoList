@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:title="소개"
+        android:showAsAction="never"
+        android:orderInCategory="1"
+        android:id="@+id/Menu_intro" />
+    <item
+        android:title="도움말"
+        android:showAsAction="never"
+        android:orderInCategory="2"
+        android:id="@+id/Menu_help"/>
+    <item
+        android:title="아바타"
+        android:showAsAction="never"
+        android:orderInCategory="3"
+        android:id="@+id/Menu_avatar"/>
+
+</menu>
